@@ -108,7 +108,7 @@ export const Cases: FC<ICases> = (props) =>{
                         data.names.map(el => (<Row>{el.value}</Row>)) :
                         data.names.map((el,index) => (<CustomInput value={el.value} type='text' onChange={(e) =>{
                             let newData = data.names.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = e.target.value;return el;}
                                 else return el;
                             }); setData({...data,names: newData});
@@ -120,7 +120,7 @@ export const Cases: FC<ICases> = (props) =>{
                         data.entity.map(el => (<Row>{el.value}</Row>)) :
                         data.entity.map((el,index) => (<CustomInput value={el.value} type='text' onChange={(e) =>{
                             let newData = data.entity.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = e.target.value;return el;}
                                 else return el;
                             }); setData({...data,entity: newData});
@@ -131,7 +131,7 @@ export const Cases: FC<ICases> = (props) =>{
                         data.location.map(el => (<Row>{el.value}</Row>)) :
                         data.location.map((el,index) => (<CustomInput value={el.value} type='text' onChange={(e) =>{
                             let newData = data.location.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = e.target.value;return el;}
                                 else return el;
                             }); setData({...data,location: newData});
@@ -142,7 +142,7 @@ export const Cases: FC<ICases> = (props) =>{
                         data.expertise.map(el => (<Row>{el.value}</Row>)) :
                         data.expertise.map((el,index) => (<CustomInput value={el.value} type='text' onChange={(e) =>{
                             let newData = data.expertise.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = e.target.value;return el;}
                                 else return el;
                             }); setData({...data,expertise: newData});
@@ -157,7 +157,7 @@ export const Cases: FC<ICases> = (props) =>{
                         dateFormat="dd/MM/yyyy"
                         onChange={e => {
                             let newData = data?.date.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = `${e}`;return el;}
                                 else return el;
                             }); setData({...data,date: newData});
@@ -168,7 +168,7 @@ export const Cases: FC<ICases> = (props) =>{
                         data.firm.map(el => (<Row>{el.value}</Row>)) :
                         data.firm.map((el,index) => (<CustomInput value={el.value} type='text' onChange={(e) =>{
                             let newData = data.firm.map(el => {
-                                if(el.id == index)
+                                if(el.id === index)
                                     {el.value = e.target.value;return el;}
                                 else return el;
                             }); setData({...data,firm: newData});
