@@ -18,10 +18,12 @@
 - A drop-down menu with a link to the user's account
 
 - Associating drop-down menu links with the workspace section
+
 ![image](https://user-images.githubusercontent.com/61733177/152511848-2a38de62-4c38-4648-8641-2345c7195475.png)
 
 
 - Associating drop-down menu links with the navigation section
+
 ![image](https://user-images.githubusercontent.com/61733177/152511971-5bdb7056-7c05-4634-9b05-b014fecb5ec5.png)
 
 
