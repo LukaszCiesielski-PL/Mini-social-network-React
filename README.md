@@ -5,7 +5,7 @@
 1. Open the project in Visual Code
 2. Open terminal
 3. Use the command "cd my-app"
-4. Then use the command "install npm"
+4. Then use the command "npm install"
 5. After installing the packages, use the command "npm start"
 6. The application should start at http: // localhost: 3000
 
